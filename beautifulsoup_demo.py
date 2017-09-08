@@ -11,5 +11,10 @@ and they lived at the bottom of a well.</p>
 <p class="story">...</p>
 """
 soup = BeautifulStoneSoup(html)
-print soup.prettify()
 
+print soup.b
+print type(soup.head)
+print soup.head.name
+print soup.p.attrs
+print soup.p['class']
+print soup.p.string
